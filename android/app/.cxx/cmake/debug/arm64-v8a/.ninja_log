@@ -98,3 +98,6 @@
 2	1417	1633559883	CMakeFiles/newfeatures.dir/cpp-bindings.cpp.o	9b06ad8d8c5fab16
 1417	1523	1633559883	/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnewfeatures.so	835851561326e6cb
 3	1743	1633560083	CMakeFiles/newfeatures.dir/cpp-bindings.cpp.o	9b06ad8d8c5fab16
+3	629	1633560836	CMakeFiles/newfeatures.dir/Users/osdnk/Projects/newfeatures/cpp/module.cpp.o	90367b8a8880f1d8
+3	1763	1633560837	CMakeFiles/newfeatures.dir/cpp-bindings.cpp.o	9b06ad8d8c5fab16
+1763	1882	1633560837	/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnewfeatures.so	835851561326e6cb
