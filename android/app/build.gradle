@@ -241,7 +241,6 @@ android {
 
 project.logger.lifecycle('my debug' + buildDir)
 
-
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
@@ -316,7 +315,7 @@ task extractJNIFiles {
 
 // third-party-ndk deps headers
 // mostly a copy of https://github.com/software-mansion/react-native-reanimated/blob/master/android/build.gradle#L115
-
+def reactNative = new File("$projectDir/../node_modules/react-native")
 def downloadsDir = new File("$buildDir/downloads")
 def thirdPartyNdkDir = new File("$buildDir/third-party-ndk")
 def thirdPartyVersionsFile = new File("${rootDir}/../node_modules/react-native/ReactAndroid/gradle.properties")

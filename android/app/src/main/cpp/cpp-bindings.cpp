@@ -5,6 +5,7 @@
 #include <ReactCommon/CallInvokerHolder.h>
 #include <react/jni/JavaScriptExecutorHolder.h>
 #include <android/log.h>
+#include "../../../../../cpp/module.h"
 
 
 using namespace facebook;
@@ -24,7 +25,8 @@ public:
 private:
     static void installNative(jni::alias_ref<jni::JClass>,
                               jlong jsiRuntimePointer) {
-
+        auto runtime = reinterpret_cast<jsi::Runtime*>(jsiRuntimePointer);
+        osdnk::samplemodule::installNative(*runtime);
     }
 };
 

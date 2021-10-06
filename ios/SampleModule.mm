@@ -13,6 +13,7 @@
 #import <React/RCTView.h>
 #import <memory>
 #import <React/RCTBridgeModule.h>
+#import "module.h"
 
 @interface SampleModule : NSObject <RCTBridgeModule>
 
@@ -40,7 +41,7 @@ RCT_EXPORT_MODULE()
   auto callInvoker = bridge.jsCallInvoker;
   
 
-  // install here
+  osdnk::samplemodule::installNative(*(jsi::Runtime *)cxxBridge.runtime);
 }
 
 @end

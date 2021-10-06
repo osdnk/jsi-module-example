@@ -8,7 +8,189 @@
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
+    "message": "rebuilding JSON /Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a\u0027 but regenerating project",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp\n-DCMAKE_CXX_FLAGS\u003d-fexceptions -frtti -std\u003dc++1y -DONANDROID\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\n-DANDROID_STL\u003dc++_shared\n-DNODE_MODULES_DIR\u003d/Users/osdnk/Projects/newfeatures/android/../node_modules\n-B/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp\",\n  \"buildDirectory\": \"/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-fexceptions -frtti -std\\u003dc++1y -DONANDROID\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\",\n    \"-DANDROID_STL\\u003dc++_shared\",\n    \"-DNODE_MODULES_DIR\\u003d/Users/osdnk/Projects/newfeatures/android/../node_modules\"\n  ]\n}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\"/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/build/cmake/platforms.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp\",\"type\":\"reply\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp\",\"targets\":[{\"artifacts\":[\"/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnewfeatures.so\"],\"buildDirectory\":\"/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-DFOLLY_NO_CONFIG\u003d1 -DFOLLY_HAVE_CLOCK_GETTIME\u003d1 -DFOLLY_HAVE_MEMRCHR\u003d1 -DFOLLY_USE_LIBCPP\u003d1 -DFOLLY_MOBILE\u003d1 -DON_ANDROID -O0 -fno-limit-debug-info  -fPIC   -std\u003dgnu++14\",\"defines\":[\"newfeatures_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/../../../build/fbjni-0.2.2-headers.jar\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/../../../build/third-party-ndk\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/../../../build/third-party-ndk/boost\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/../../../build/third-party-ndk/glog/exported\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/../../../build/third-party-ndk/double-conversion\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/../../../build/third-party-ndk/folly\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/../../../build/third-party-ndk/glog\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/../node_modules/react-native/React\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/../node_modules/react-native/React/Base\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/../node_modules/react-native/ReactAndroid/src/main/jni\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/../node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/turbomodule/core/jni\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/../node_modules/react-native/ReactCommon\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/../node_modules/react-native/ReactCommon/callinvoker\"},{\"path\":\"/Users/osdnk/Projects/newfeatures/android/../node_modules/react-native/ReactCommon/jsi\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"cpp-bindings.cpp\",\"../../../../../node_modules/react-native/ReactCommon/jsi/jsi/jsi.cpp\",\"../../../../../node_modules/react-native/ReactCommon/jsi/jsi/JSIDynamic.cpp\"]}],\"fullName\":\"libnewfeatures.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -lreactnativejni -lreactnativeutilsjni -lfbjni -lfolly_json -lglog -landroid -latomic -lm\",\"linkPath\":\"-L/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a\",\"linkerLanguage\":\"CXX\",\"name\":\"newfeatures\",\"sourceDirectory\":\"/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp\",\"sysroot\":\"/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
     "file": "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt",
     "tag": "debug|armeabi-v7a",
     "diagnosticCode": "UNKNOWN"

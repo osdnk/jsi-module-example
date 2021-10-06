@@ -210,8 +210,8 @@ CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_VERSION:UNINITIALIZED=21
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -224,6 +224,24 @@ FBJNI_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-nat
 
 //Path to a library.
 FBJNI_LIBRARY:FILEPATH=FBJNI_LIBRARY-NOTFOUND
+
+//Path to a library.
+FOLLY_JSON_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libfolly_json.so
+
+//Path to a library.
+GLOG_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libglog.so
+
+//Path to a library.
+HERMES:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/third-party-ndk/hermes/jni/armeabi-v7a/libhermes.so
+
+//Path to a library.
+JSEXECUTORLIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libjscexecutor.so
+
+//Path to a library.
+JSEXECUTOR_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libjscexecutor.so
+
+//Path to a library.
+JSEXECUTOR_xsLIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libjscexecutor.so
 
 //Path to a library.
 LOG_LIB:FILEPATH=/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/liblog.so
@@ -244,7 +262,7 @@ REACT_NATIVE_JNI_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/buil
 REACT_NATIVE_UTILS_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libreactnativeutilsjni.so
 
 //Dependencies for the target
-newfeatures_LIB_DEPENDS:STATIC=general;/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/liblog.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libreactnativejni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libreactnativeutilsjni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libfbjni.so;general;android;
+newfeatures_LIB_DEPENDS:STATIC=general;/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/liblog.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libreactnativejni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libreactnativeutilsjni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libfbjni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libfolly_json.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/armeabi-v7a/libglog.so;general;android;
 
 
 ########################

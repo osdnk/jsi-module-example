@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		66E3D298270E4A86008057A4 /* SampleModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66E3D297270E4A86008057A4 /* SampleModule.mm */; };
+		66E3D29B270E5E34008057A4 /* module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E3D29A270E5E34008057A4 /* module.cpp */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8719FED5FE9F5D79AF7093D0 /* libPods-newfeatures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD3FEE61C3CE4070C582267 /* libPods-newfeatures.a */; };
 		A8DBFB49A3D3EBA582258708 /* libPods-newfeatures-newfeaturesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4408B4C001AB0087C7D35 /* libPods-newfeatures-newfeaturesTests.a */; };
@@ -42,6 +43,8 @@
 		4A7B4C567C34614004CF2D76 /* Pods-newfeatures-newfeaturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newfeatures-newfeaturesTests.debug.xcconfig"; path = "Target Support Files/Pods-newfeatures-newfeaturesTests/Pods-newfeatures-newfeaturesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E5A7BBC25D6F3869FD68112 /* Pods-newfeatures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newfeatures.debug.xcconfig"; path = "Target Support Files/Pods-newfeatures/Pods-newfeatures.debug.xcconfig"; sourceTree = "<group>"; };
 		66E3D297270E4A86008057A4 /* SampleModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SampleModule.mm; sourceTree = "<group>"; };
+		66E3D299270E5E34008057A4 /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = module.h; path = ../cpp/module.h; sourceTree = "<group>"; };
+		66E3D29A270E5E34008057A4 /* module.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = module.cpp; path = ../cpp/module.cpp; sourceTree = "<group>"; };
 		6AD4408B4C001AB0087C7D35 /* libPods-newfeatures-newfeaturesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newfeatures-newfeaturesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = newfeatures/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1EC9DA93DDB695D5D8A8E8 /* Pods-newfeatures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newfeatures.release.xcconfig"; path = "Target Support Files/Pods-newfeatures/Pods-newfeatures.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 		13B07FAE1A68108700A75B9A /* newfeatures */ = {
 			isa = PBXGroup;
 			children = (
+				66E3D29A270E5E34008057A4 /* module.cpp */,
+				66E3D299270E5E34008057A4 /* module.h */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -414,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				66E3D29B270E5E34008057A4 /* module.cpp in Sources */,
 				66E3D298270E4A86008057A4 /* SampleModule.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

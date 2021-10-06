@@ -16,6 +16,7 @@ add_library(
         ${PACKAGE_NAME}
         SHARED
         cpp-bindings.cpp
+        ../../../../../cpp/module.cpp
         ${NODE_MODULES_DIR}/react-native/ReactCommon/jsi/jsi/jsi.cpp
         ${NODE_MODULES_DIR}/react-native/ReactCommon/jsi/jsi/JSIDynamic.cpp
 )

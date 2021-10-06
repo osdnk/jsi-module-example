@@ -226,6 +226,12 @@ FBJNI_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-nat
 FBJNI_LIBRARY:FILEPATH=FBJNI_LIBRARY-NOTFOUND
 
 //Path to a library.
+FOLLY_JSON_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libfolly_json.so
+
+//Path to a library.
+GLOG_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libglog.so
+
+//Path to a library.
 LOG_LIB:FILEPATH=/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so
 
 //No help, variable specified on the command line.
@@ -244,7 +250,7 @@ REACT_NATIVE_JNI_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/buil
 REACT_NATIVE_UTILS_LIB:FILEPATH=/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libreactnativeutilsjni.so
 
 //Dependencies for the target
-newfeatures_LIB_DEPENDS:STATIC=general;/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libreactnativejni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libreactnativeutilsjni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libfbjni.so;general;android;
+newfeatures_LIB_DEPENDS:STATIC=general;/Users/osdnk/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libreactnativejni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libreactnativeutilsjni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libfbjni.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libfolly_json.so;general;/Users/osdnk/Projects/newfeatures/android/app/build/react-native-0.66.0.aar/jni/x86/libglog.so;general;android;
 
 
 ########################
