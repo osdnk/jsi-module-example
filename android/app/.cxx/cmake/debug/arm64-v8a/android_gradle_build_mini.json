@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "newfeatures-Debug-arm64-v8a": {
+      "artifactName": "newfeatures",
+      "buildCommandComponents": [
+        "/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/arm64-v8a",
+        "newfeatures"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnewfeatures.so",
+      "runtimeFiles": []
+    }
+  }
+}

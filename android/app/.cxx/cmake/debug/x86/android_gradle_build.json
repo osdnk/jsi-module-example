@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/osdnk/Projects/newfeatures/android/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "newfeatures-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/osdnk/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/osdnk/Projects/newfeatures/android/app/.cxx/cmake/debug/x86",
+        "newfeatures"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "newfeatures",
+      "output": "/Users/osdnk/Projects/newfeatures/android/app/build/intermediates/cmake/debug/obj/x86/libnewfeatures.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
