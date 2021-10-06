@@ -16,6 +16,8 @@ add_library(
         ${PACKAGE_NAME}
         SHARED
         cpp-bindings.cpp
+        ${NODE_MODULES_DIR}/react-native/ReactCommon/jsi/jsi/jsi.cpp
+        ${NODE_MODULES_DIR}/react-native/ReactCommon/jsi/jsi/JSIDynamic.cpp
 )
 
 # includes
@@ -26,7 +28,9 @@ target_include_directories(
         ${PACKAGE_NAME}
         PRIVATE
         ${LIBFBJNI_INCLUDE_DIR}
+        ${BUILD_DIR}/third-party-ndk
         ${BUILD_DIR}/third-party-ndk/boost
+        ${BUILD_DIR}/third-party-ndk/glog/exported
         ${BUILD_DIR}/third-party-ndk/double-conversion
         ${BUILD_DIR}/third-party-ndk/folly
         ${BUILD_DIR}/third-party-ndk/glog
@@ -37,7 +41,6 @@ target_include_directories(
         "${NODE_MODULES_DIR}/react-native/ReactCommon"
         "${NODE_MODULES_DIR}/react-native/ReactCommon/callinvoker"
         "${NODE_MODULES_DIR}/react-native/ReactCommon/jsi"
-        "${NODE_MODULES_DIR}/react-native/ReactCommon/jsi"
        # "../cpp"
 )
 
@@ -47,6 +50,8 @@ target_include_directories(
 
 file (GLOB LIBRN_DIR "${BUILD_DIR}/react-native-0*/jni/${ANDROID_ABI}")
 file (GLOB LIBJSC_DIR "${BUILD_DIR}/android-jsc*.aar/jni/${ANDROID_ABI}")
+file (GLOB HERMES_DIR "${BUILD_DIR}/third-party-ndk/hermes/jni/${ANDROID_ABI}")
+
 
 
 find_library(
@@ -74,6 +79,19 @@ find_library(
         NO_CMAKE_FIND_ROOT_PATH
 )
 
+find_library(
+        FOLLY_JSON_LIB
+        folly_json
+        PATHS ${LIBRN_DIR}
+        NO_CMAKE_FIND_ROOT_PATH
+)
+
+find_library(
+        GLOG_LIB
+        glog
+        PATHS ${LIBRN_DIR}
+        NO_CMAKE_FIND_ROOT_PATH
+)
 # linking
 
 find_library(
@@ -90,5 +108,7 @@ target_link_libraries(
         ${REACT_NATIVE_JNI_LIB}
         ${REACT_NATIVE_UTILS_LIB}
         ${FBJNI_LIB}
+        ${FOLLY_JSON_LIB}
+        ${GLOG_LIB}
         android
 )
